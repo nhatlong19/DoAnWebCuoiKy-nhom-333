@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script language="javascript" src="ckeditor/ckeditor.js"></script>
 <title> Hùng Lâm mobile Admin </title>
-<link rel="stylesheet" type="text/css" href="css/css1.css">
+<link rel="stylesheet" type="text/css" href="../css/kss.css">
 
 
 
