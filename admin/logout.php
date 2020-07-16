@@ -1,4 +1,4 @@
-﻿<?php 
+<?php 
 session_start(); 
 unset($_SESSION['phanquyen']);
 unset($_SESSION['username']);
