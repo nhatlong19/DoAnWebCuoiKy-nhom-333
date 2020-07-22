@@ -1125,3 +1125,18 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button{background
 .pagination > li > a, .pagination > li > span {
   color: #5a88ca;
 }
+
+.hh-box{
+    width: 330px; height: 380px;
+    
+    border-radius: 5px; /*bo góc cho border*/
+    text-align: center; /*xắp xếp nội dung theo chiều ngang(left, center, right)*/
+    position: relative; /*đánh dấu cho position ở dưới để nó áp dụng cho class này*/
+    display: inline-block;/*display xác định loại hiển thị của các thành phần, có nhiều loại như: block,inline,inline-block,...*/
+    margin:25px 5px 5px 5px;
+}
+
+.lienhe1{
+    text-align: center;
+    position: relative;
+}

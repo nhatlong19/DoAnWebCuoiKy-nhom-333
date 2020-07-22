@@ -115,7 +115,23 @@
     
     <!--main content-->
 
-
+     <br><br><br><br><br><br><br><br><br>
+     <div class="lienhe1">  
+        <h2 >Điện thoại & Email</h2>
+                            <ul class="lieuhe2">
+                                <li><a href="#">038811232</a></li>
+                                <li><a href="#">097899337</a></li>
+                                <li><a href="#">084455533</a></li>
+                                <li><a href="#">renhuchocellphone@gmail.com</a></li>
+                            </ul>
+        <h2 >Địa chỉ </h2>
+                            <ul class="lieuhe2">
+                                <li><a href="#">351 Lạc Long Quân P5 Q11 HCM</a></li>
+                                <li><a href="#">222 Hai Bà Trưng P6 Q3 HCM</a></li>
+                                <li><a href="#">324 Nguyễn Trãi P3 Q9 HCM</a></li>
+                            </ul>   
+</div>
+     <br><br><br><br><br><br><br><br><br>
 
 
     <!--End main content-->

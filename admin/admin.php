@@ -93,7 +93,7 @@
                             <div class="row">
                                 <div class=" navbar-collapse collapse">
                                     <ul class=" nav navbar-nav">
-                                        <li class="active"><a href="admin.php">Trang chủ</a></li>
+                                        <li ><a href="admin.php">Trang chủ</a></li>
                                         <li><a href="?admin=hienthidt"> Doanh thu</a></li>
                                         <li><a href="?admin=hienthisp"> Sản phẩm</a></li>
                                         <li><a href="?admin=hienthidm"> Danh mục</a></li>
