@@ -28,7 +28,7 @@
                         <ul>
                             <li><a href="login.php"><i class="fa fa-user"></i> Tài khoản</a></li>
                             <li><a href="#"><i class="fa fa-heart"></i> Danh sách mong ước</a></li>
-                            <li><a href="DoHang.php"><i class="fa fa-user"></i> Dỏ hàng</a></li>
+                            <li><a href="giohang.php"><i class="fa fa-user"></i> Dỏ hàng</a></li>
                             <li><a href="login.php"><i class="fa fa-user"></i> Đăng nhập</a></li>
                         </ul>
                     </div>

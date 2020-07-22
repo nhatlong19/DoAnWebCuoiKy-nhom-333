@@ -38,7 +38,7 @@
                                 <ul>
                                     <li><a href="../login.php"><i class="fa fa-user"></i> Tài khoản</a></li>
                                     <li><a href="#"><i class="fa fa-heart"></i> Danh sách mong ước</a></li>
-                                    <li><a href="../DoHang.php"><i class="fa fa-user"></i> Giỏ hàng</a></li>
+                                    <li><a href="../giohang.php"><i class="fa fa-user"></i> Giỏ hàng</a></li>
                                     <li><a href="logout.php"> | Thoát</a></li>
                                 </ul>
                             </div>
@@ -77,7 +77,7 @@
                         
                     <div class="col-sm-6">
                         <div class="shopping-item">
-                            <a href="../DoHang.php"> 
+                            <a href="../giohang.php"> 
                                 Giỏ hàng
                                 <i class="fa fa-shopping-cart"> </i> 
                             </a>
