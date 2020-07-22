@@ -1,7 +1,4 @@
-﻿
-
-<?php
-
+﻿<?php
 if(isset($_GET['admin']))
 	switch($_GET['admin'])
 	{

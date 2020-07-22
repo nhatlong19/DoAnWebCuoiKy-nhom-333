@@ -29,7 +29,7 @@
                             <ul>
                                 <li><a href="checkout.html"><i class="fa fa-user"></i> Tài khoản</a></li>
                                 <li><a href="#"><i class="fa fa-heart"></i> Danh sách mong ước</a></li>
-                                <li><a href="DoHang.html"><i class="fa fa-user"></i> Dỏ hàng</a></li>
+                                <li><a href="dohang.php"><i class="fa fa-user"></i> Dỏ hàng</a></li>
                                 <li><a href="#"><i class="fa fa-user"></i> Đăng nhập</a></li>
                             </ul>
                         </div>
@@ -65,7 +65,7 @@
                         
                     <div class="col-sm-6">
                         <div class="shopping-item " >
-                            <a href="DoHang.html" > 
+                            <a href="dohang.php" > 
                                     Dỏ hàng
                                 <i class="fa fa-shopping-cart"> </i> 
                             </a>
@@ -82,8 +82,8 @@
                 <div class="row">
                     <div class=" navbar-collapse collapse">
                         <ul class=" nav navbar-nav" id>
-                            <li><a href="home.html">Trang chủ</a></li>
-                            <li><a href="products.html">Sản phẩm</a></li>
+                            <li><a href="home.php">Trang chủ</a></li>
+                            <li><a href="products.php">Sản phẩm</a></li>
                             <li><a href="#">Phụ kiện</a></li>
                             <li><a href="#">Liên hệ</a></li>
                             <li><a href="https://cellphones.com.vn/sforum/" target="_blank">Tin công nghệ</a></li>

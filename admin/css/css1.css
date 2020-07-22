@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+body {
+    font-family: tahoma;
+    color: #333;
+}
+
+#wapper {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    background: white;
+    border: 1px solid #e6e6e6;
+    -webkit-box-shadow: 0 1px 20px #767676;
+    box-shadow: 0 1px 20px #767676;
+    -moz-box-shadow: 0 1px 20px #767676;
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+}
+
+#bg-header {
+    background: url(../img/banner.png) no-repeat;
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+    border-bottom: 1px solid #151515;
+}
+
+#content {
+    width: 100%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+}
+
+#main-content {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+#top-content {
+    width: 100%;
+    height: 50px;
+    background: url("../img/bg-input.jpg") repeat-x;
+    border-top: 1px solid black;
+}
+
+#top-content p {
+    color: black;
+    float: right;
+    padding-right: 30px;
+    padding-top: 14px;
+}
+
+#left-content {
+    width: 100%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.menu ul {
+    list-style-type: none;
+    background: #1f568B;
+    text-align: center;
+}
+
+.menu ul li {
+    color: #f1f1f1;
+    display: inline-table;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.menu ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover {
+    background: #f1f1f1;
+    color: #333;
+}
+
+#phukien {
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    background: #ffffff;
+    margin-top: 20px;
+}
+
+#quangcao1 {
+    padding-top: 20px;
+}
+
+
+/* Show content_admin*/
+
+#center-content {
+    width: 100%;
+    height: auto;
+    float: right;
+    overflow: hidden;
+    padding-right: 10px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+
+/*-----------------------Check hóa đơn-------------------------------------*/
+
+#check {
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+
+#check p input {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background: white;
+    border: 1px solid #3867d6;
+}
+
+#check p input:nth-child(2) {
+    width: 50px;
+}
+
+#check p input:nth-child(3) {
+    width: 50px
+}
+
+#check p input:hover {
+    background: #45aaf2;
+    color: white;
+}
+
+
+/*-----------------------Sản phẩm mới nhập về-------------------------------------*/
+
+#admincon {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#sanphammoi {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#sanphammoi table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#sanphammoi tr {
+    text-align: center;
+}
+
+#sanphammoi tr td {
+    border: 1px solid #2f3542;
+}
+
+#sanphammoi tr.tieudespmoi {
+    color: white;
+    background: #45aaf2;
+    height: 30px;
+}
+
+#sanphammoi tr.sanphammoitheongay {
+    background: #3867d6;
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#sanphammoi:nth-child(2) {
+    margin-top: 20px;
+}
+
+#sanphammoi:nth-child(3) {
+    margin-top: 20px;
+}
+
+
+/*--------------------Shipper------------------------*/
+
+.menu-shipper ul {
+    list-style-type: none;
+    background: #1f568B;
+    text-align: left;
+}
+
+.menu-shipper ul li {
+    color: #f1f1f1;
+    display: inline-table;
+    padding: 3px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.menu-shipper ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-shipper ul li a:hover {
+    background: #f1f1f1;
+    color: #333;
+}
+
+
+/*--------------------Staff------------------------*/
+
+.menu-staff ul {
+    list-style-type: none;
+    background: #1f568B;
+    text-align: left;
+    border: #151515;
+}
+
+.menu-staff ul li {
+    color: #f1f1f1;
+    display: inline-table;
+    padding: 3px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.menu-staff ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-staff ul li a:hover {
+    background: #f1f1f1;
+    color: #333;
+}
+
+
+/*--------------------Nhân viên kho------------------*/
+
+.menu-nvkho ul {
+    list-style-type: none;
+    background: #1f568B;
+    text-align: left;
+    border: #151515;
+}
+
+.menu-nvkho ul li {
+    color: #f1f1f1;
+    display: inline-table;
+    padding: 3px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.menu-nvkho ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-nvkho ul li a:hover {
+    background: #f1f1f1;
+    color: #333;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 
+
 <html >
     <head>
         <meta charset="utf-8">
@@ -29,7 +30,7 @@
                             <ul>
                                 <li><a href="login.php"><i class="fa fa-user"></i> Tài khoản</a></li>
                                 <li><a href="#"><i class="fa fa-heart"></i> Danh sách mong ước</a></li>
-                                <li><a href="DoHang.html"><i class="fa fa-user"></i> Giỏ hàng</a></li>
+                                <li><a href="dohang.php"><i class="fa fa-user"></i> Giỏ hàng</a></li>
                                 <li><a href="login.php"><i class="fa fa-user"></i> Đăng nhập</a></li>
                             </ul>
                         </div>
@@ -65,7 +66,7 @@
                     
                     <div class="col-sm-6">
                         <div class="shopping-item">
-                            <a href="DoHang.html"> 
+                            <a href="dohang.php"> 
                                 Giỏ hàng
                                 <i class="fa fa-shopping-cart"> </i> 
                             </a>
@@ -82,8 +83,8 @@
                 <div class="row">
                     <div class=" navbar-collapse collapse">
                         <ul class=" nav navbar-nav" id>
-                            <li class="active"><a href="home.html">Trang chủ</a></li>
-                            <li><a href="products.html">Sản phẩm</a></li>
+                            <li class="active"><a href="home.php">Trang chủ</a></li>
+                            <li><a href="products.php">Sản phẩm</a></li>
                             <li><a href="#">Phụ kiện</a></li>
                             <li><a href="#">Liên hệ</a></li>
                             <li><a href="https://cellphones.com.vn/sforum/" target="_blank">Tin công nghệ</a></li>
@@ -157,105 +158,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="latest-product">
-                            <!--<h2 class="section-title">Sản phẩm mới</h2>-->
-                            <div class="product-carousel">
-                                <div class="single-product" >
-                                    <div class="product-f-image">
-                                        <img src="img/product-1.jpg" alt="">
-                                        <div class="product-hover">
-                                            <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Thêm vào dỏ</a>
-                                            <a href="detail-product.html" class="view-details-link"><i class="fa fa-link"></i> Chi tiết</a>
-                                        </div>
-                                    </div>
-                                    
-                                    <h2><a href="detail-product.html">Samsung Galaxy s5- 2015</a></h2>
-                                    
-                                    <div class="product-carousel-price">
-                                        <ins>4.000.000 đ</ins> <del>7.000.000 đ</del>
-                                    </div> 
-                                </div>
-                                <div class="single-product">
-                                    <div class="product-f-image">
-                                        <img src="img/product-2.jpg" alt="">
-                                        <div class="product-hover">
-                                            <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Thêm vào dỏ</a>
-                                            <a href="detail-product.html" class="view-details-link"><i class="fa fa-link"></i> Chi tiết</a>
-                                        </div>
-                                    </div>
-                                    
-                                    <h2>Nokia Lumia 1320</h2>
-                                    <div class="product-carousel-price">
-                                        <ins>3.000.000 đ</ins> <del>5.000.000 đ</del>
-                                    </div> 
-                                </div>
-                                <div class="single-product">
-                                    <div class="product-f-image">
-                                        <img src="img/product-3.jpg" alt="">
-                                        <div class="product-hover">
-                                            <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Thêm vào dỏ</a>
-                                            <a href="detail-product.html" class="view-details-link"><i class="fa fa-link"></i> Chi tiết</a>
-                                        </div>
-                                    </div>
-                                    
-                                    <h2>LG Leon 2015</h2>
-
-                                    <div class="product-carousel-price">
-                                        <ins>4.000.000 đ</ins> <del>2.000.000 đ</del>
-                                    </div>                                 
-                                </div>
-                                <div class="single-product">
-                                    <div class="product-f-image">
-                                        <img src="img/product-4.jpg" alt="">
-                                        <div class="product-hover">
-                                            <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Thêm vào dỏ</a>
-                                            <a href="detail-product.html" class="view-details-link"><i class="fa fa-link"></i> Chi tiết</a>
-                                        </div>
-                                    </div>
-                                    
-                                    <h2><a href="detail-product.html">Sony Experia 100</a></h2>
-
-                                    <div class="product-carousel-price">
-                                        <ins>5.000.000 đ</ins> <del>9.000.000 đ</del>
-                                    </div>                            
-                                </div>
-                                <div class="single-product">
-                                    <div class="product-f-image">
-                                        <img src="img/product-5.jpg" alt="">
-                                        <div class="product-hover">
-                                            <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Thêm vào dỏ</a>
-                                            <a href="detail-product.html" class="view-details-link"><i class="fa fa-link"></i> Chi tiết</a>
-                                        </div>
-                                    </div>
-                                    
-                                    <h2>iPhone 6</h2>
-
-                                    <div class="product-carousel-price">
-                                        <ins>7.000.000 đ</ins> <del>11.000.000 đ</del>
-                                    </div>                                 
-                                </div>
-                                <div class="single-product">
-                                    <div class="product-f-image">
-                                        <img src="img/product-6.jpg" alt="">
-                                        <div class="product-hover">
-                                            <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Thêm vào dỏ</a>
-                                            <a href="detail-product.html" class="view-details-link"><i class="fa fa-link"></i> Chi tiết</a>
-                                        </div>
-                                    </div>
-                                    
-                                    <h2><a href="detail-product.html">Samsung gallaxy note 4</a></h2>
-
-                                    <div class="product-carousel-price">
-                                        <ins>6.000.000 đ</ins>
-                                    </div>                            
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
-        <!-- End main content -->
-        
+                            
         <!--brands-->
         <div class="brands-area">
             <div class="zigzag-bottom"></div>
