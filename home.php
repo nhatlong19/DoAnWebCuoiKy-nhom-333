@@ -85,8 +85,7 @@
                         <ul class=" nav navbar-nav" id>
                             <li class="active"><a href="home.php">Trang chủ</a></li>
                             <li><a href="products.php">Sản phẩm</a></li>
-                            <li><a href="#">Phụ kiện</a></li>
-                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="lienhe.php">Liên hệ</a></li>
                             <li><a href="https://cellphones.com.vn/sforum/" target="_blank">Tin công nghệ</a></li>
                             <li><a href="#">Khác</a></li>
                             <li >
@@ -103,7 +102,8 @@
             </div>
         </div> 
         <!-- End menu -->
-        
+        <br>
+        <h6 class="section-title">SẢN PHẨM MỚI</h6>
         <div class="slider-area">
                 <!-- Slider -->
                 <div class="block-slider block-slider4">
@@ -115,7 +115,7 @@
                                     iPhone <span class="primary">6 Plus</span>
                                 </h2>
                                 <h4 class="caption subtitle">2 SIM 2 sóng</h4>
-                                <a class="caption button-radius" href="#"><span class="icon"></span>Mua ngay</a>
+                                
                             </div>
                         </li>
                         <li><img src="img/h4-slide2.png" alt="Slide">
@@ -124,7 +124,7 @@
                                     Mua 2, tặng <span class="primary">1 </span>
                                 </h2>
                                 <h4 class="caption subtitle">Balo & đồ dùng học sinh</h4>
-                                <a class="caption button-radius" href="#"><span class="icon"></span>Mua ngay</a>
+                                
                             </div>
                         </li>
                         <li><img src="img/h4-slide3.png" alt="Slide">
@@ -133,7 +133,7 @@
                                     Máy nghe nhạc <span class="primary">Apple Ipod </span>
                                 </h2>
                                 
-                                <a class="caption button-radius" href="#"><span class="icon"></span>Mua ngay</a>
+                                
                             </div>
                         </li>
                         <li><img src="img/h4-slide4.png" alt="Slide">
@@ -141,14 +141,13 @@
                             <h2 class="caption title">
                                     Tai nghe <span class="primary"> Apple </span>
                                 </h2>
-                                <a class="caption button-radius" href="#"> <span class="icon"></span>Mua ngay</a>
+                                
                             </div>
                         </li>
                     </ul>
                 </div>
         </div> 
-        <br>
-        <h6 class="section-title">SẢN PHẨM MỚI</h6>
+        
         <!-- End slider -->
 
         <!--main content-->

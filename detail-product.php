@@ -84,8 +84,7 @@
                         <ul class=" nav navbar-nav" id>
                             <li><a href="home.php">Trang chủ</a></li>
                             <li><a href="products.php">Sản phẩm</a></li>
-                            <li><a href="#">Phụ kiện</a></li>
-                            <li><a href="#">Liên hệ</a></li>
+                             <li><a href="lienhe.php">Liên hệ</a></li>
                             <li><a href="https://cellphones.com.vn/sforum/" target="_blank">Tin công nghệ</a></li>
                             <li><a href="#">Khác</a></li>
                             <li >

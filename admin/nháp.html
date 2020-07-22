@@ -1,3 +1,100 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script language="javascript" src="ckeditor/ckeditor.js"></script>
+<title> Hùng Lâm mobile Admin </title>
+<link rel="stylesheet" type="text/css" href="../css/kss.css">
+
+
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        
+        <!-- Font -->
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="../css/owl.carousel.css">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../css/responsive.css">
+
+
+
+
+</head>
+<?php 
+	include("../include/connect.php");
+?>
+<body>
+<div id="wapper">
+	<div id="header">
+		<div id="bg-header">
+		</div><!-- End .bg-header -->
+	</div><!-- End .header -->
+	<div id="content">
+		<div id="top-content">
+						<p><font color="#be2edd"><b><u><?= $_SESSION['username']?></u></b></font><a href="logout.php"> | Thoát</a></p>
+		</div>
+		<div id="main-content">
+					<div class="menu">
+						<ul>
+							<li><a href="admin.php">Trang chủ</a></li>
+							<li><a href="?admin=hienthidt"> Doanh thu</a></li>
+							<li><a href="?admin=hienthisp"> Sản phẩm</a></li>
+							<li><a href="?admin=hienthidm"> Danh mục</a></li>
+							<li><a href="?admin=hienthihd"> Hóa đơn</a></li>
+							<li><a href="?admin=hienthind"> Người dùng</a></li>
+							<li><a href="?admin=hienthitt"> Tin tức</a></li>
+							<li><a href="?admin=hienthiht"> Hỗ trợ</a></li>
+						</ul>
+					</div><!-- End .center -->
+				</div>	<!-- End .menu-left -->
+			<!---------------- Hiển trị content-admin------------------->
+			<div id="center-content">
+                <?php
+                    include("content_admin.php");
+                ?>
+			</div>
+		</div><!-- End .main-content -->
+	</div><!-- End .content -->
+	
+</div><!-- End .wapper -->
+</body>
+
+
+		<script src="https://code.jquery.com/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        
+        <script src="../js/owl.carousel.min.js"></script>
+        <script src="../js/jquery.sticky.js"></script>
+        
+        <script src="../js/main.js"></script>
+        
+        <!-- Slide -->
+        <script type="text/javascript" src="../js/bxslider.min.js"></script>
+		<script type="text/javascript" src="../js/script.slider.js"></script>
+		
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +111,7 @@ body {
     color: #333;
 }
 
-/*#wapper {
+#wapper {
     width: 1000px;
     height: auto;
     margin: auto;
@@ -24,20 +121,20 @@ body {
     -webkit-box-shadow: 0 1px 20px #767676;
     box-shadow: 0 1px 20px #767676;
     -moz-box-shadow: 0 1px 20px #767676;
-}*/
+}
 
 #header {
     width: 100%;
     height: 150px;
 }
 
-/*#bg-header {
+#bg-header {
     background: url(../img/banner.png) no-repeat;
     width: 1000px;
     height: 150px;
     margin: 0 auto;
     border-bottom: 1px solid #151515;
-}*/
+}
 
 #content {
     width: 100%;
@@ -53,12 +150,12 @@ body {
     overflow: hidden;
 }
 
-/*#top-content {
+#top-content {
     width: 100%;
     height: 50px;
     background: url("../img/bg-input.jpg") repeat-x;
     border-top: 1px solid black;
-}*/
+}
 
 #top-content p {
     color: black;

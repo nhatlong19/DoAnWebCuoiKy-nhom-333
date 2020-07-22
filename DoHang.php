@@ -84,8 +84,7 @@
                         <ul class=" nav navbar-nav" id>
                             <li><a href="home.php">Trang chủ</a></li>
                             <li><a href="products.php">Sản phẩm</a></li>
-                            <li><a href="#">Phụ kiện</a></li>
-                            <li><a href="#">Liên hệ</a></li>
+                             <li><a href="lienhe.php">Liên hệ</a></li>
                             <li><a href="https://cellphones.com.vn/sforum/" target="_blank">Tin công nghệ</a></li>
                             <li><a href="#">Khác</a></li>
                             <li >
@@ -115,98 +114,12 @@
             </div>
         </div>
         
-        
+        <!--main-->
         <div class="single-product-area">
             
-            <div class="container">
-                    <div class="col-md-8">
-                        <div class="product-content-right">
-                            <div class="woocommerce">
-                                <form method="post" action="#">
-                                    <table cellspacing="0" class="shop_table cart">
-                                        <thead>
-                                            <tr>
-                                                <th class="product-remove">&nbsp;</th>
-                                                <th class="product-thumbnail">&nbsp;</th>
-                                                <th class="product-name">Product</th>
-                                                <th class="product-price">Price</th>
-                                                <th class="product-quantity">Quantity</th>
-                                                <th class="product-subtotal">Total</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr class="cart_item">
-                                                <td class="product-remove">
-                                                    <a title="Remove this item" class="remove" href="#">×</a> 
-                                                </td>
 
-                                                <td class="product-thumbnail">
-                                                    <a href="detail-product.php"><img width="145" height="145" alt="poster_1_up" class="shop_thumbnail" src="img/product-thumb-2.jpg"></a>
-                                                </td>
-
-                                                <td class="product-name">
-                                                    <a href="detail-product.php">Tên điện thoại</a> 
-                                                </td>
-
-                                                <td class="product-price">
-                                                    <span class="amount"> đ</span> 
-                                                </td>
-
-                                                <td class="product-quantity">
-                                                    <div class="quantity buttons_added">
-                                                        <input type="button" class="minus" value="-">
-                                                        <input type="number" size="4" class="input-text qty text" title="Qty" value="1" min="0" step="1">
-                                                        <input type="button" class="plus" value="+">
-                                                    </div>
-                                                </td>
-
-                                                <td class="product-subtotal">
-                                                    <span class="amount"> đ</span> 
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="actions" colspan="6">
-                                                    <div class="coupon">
-                                                        <label for="coupon_code">Voucher:</label>
-                                                        <input type="text" placeholder="code" value="" id="coupon_code" class="input-text" name="coupon_code">
-                                                        <input type="submit" value="Áp dụng" name="apply_coupon" class="button">
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </form>
-
-                                <div class="cart-collaterals">
-                                    <div class="cart_totals ">
-                                        <h2>Đơn giá</h2>
-
-                                        <table cellspacing="0">
-                                            <tbody>
-                                                <tr class="cart-subtotal">
-                                                    <th>Tiền </th>
-                                                    <td><span class="amount">    đ</span></td>
-                                                </tr>
-
-                                                <tr class="shipping">
-                                                    <th>Phí ship</th>
-                                                    <td>    đ</td>
-                                                </tr>
-
-                                                <tr class="order-total">
-                                                    <th>Tổng tiền</th>
-                                                    <td><strong><span class="amount">      đ</span></strong> </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>                        
-                        </div>                    
-                    </div>
-            </div>
         </div>
-
+        <!--end main-->
 
         <!--footer-->
         <div class="footer-top-area">

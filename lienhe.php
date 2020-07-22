@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 
-
 <html >
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Tất cả sản phẩm</title>
+        <title>Liên hệ</title>
         <!-- Bootstrap -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         
@@ -29,7 +28,7 @@
                         <ul>
                             <li><a href="login.php"><i class="fa fa-user"></i> Tài khoản</a></li>
                             <li><a href="#"><i class="fa fa-heart"></i> Danh sách mong ước</a></li>
-                            <li><a href="dohang.php"><i class="fa fa-user"></i> Dỏ hàng</a></li>
+                            <li><a href="DoHang.php"><i class="fa fa-user"></i> Dỏ hàng</a></li>
                             <li><a href="login.php"><i class="fa fa-user"></i> Đăng nhập</a></li>
                         </ul>
                     </div>
@@ -65,7 +64,7 @@
                 
                 <div class="col-sm-6">
                     <div class="shopping-item">
-                        <a href="dohang.php"> 
+                        <a href="DoHang.html"> 
                             Dỏ hàng
                             <i class="fa fa-shopping-cart"> </i> 
                         </a>
@@ -83,8 +82,8 @@
                 <div class=" navbar-collapse collapse">
                     <ul class=" nav navbar-nav" id>
                         <li><a href="home.php">Trang chủ</a></li>
-                        <li class="active"><a href="products.php">Sản phầm</a></li> 
-                         <li><a href="lienhe.php">Liên hệ</a></li>
+                        <li><a href="products.php">Sản phầm</a></li>
+                        <li class="active"><a href="lienhe.php">Liên hệ</a></li>
                         <li><a href="https://cellphones.com.vn/sforum/" target="_blank">Tin công nghệ</a></li>
                         <li><a href="#">Khác</a></li>
                         <li >
@@ -107,7 +106,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="product-bit-title text-center">
-                        <h2>Shop</h2>
+                        <h2>Thông tin liên hệ</h2>
                     </div>
                 </div>
             </div>
@@ -115,102 +114,10 @@
     </div>
     
     <!--main content-->
-    <div class="single-product-area" style="background-color: snow;">
-        <div class="zigzag-bottom"></div>
-        <div class="container">
-            <div class="row">
-                
-            <link rel="stylesheet" href="css/sanpham1.css">
-<script type="text/javascript" src="js/checkbox.js"></script>
-<?php
-	include ('include/connect.php');
-	
-    $select = "select * from sanpham inner join danhmuc on sanpham.madm=danhmuc.madm";
-    $query = mysql_query($select);
-    $dem = mysql_num_rows($query);
-?>
 
-        					
 
-   
-		<?php 
-	   $sql="select * from danhmuc where dequi=1 order by madm";
-	   $result=mysql_query($sql);
-	
-	 
-	    while($row=mysql_fetch_array($result))
-		{ 
-		?> 	<div class="sanpham"> <?php 
-			$sql1="select * from sanpham where madm={$row['madm']} order by idsp  LIMIT 0,6";
-			$kq=mysql_query($sql1);
-			$dem = mysql_num_rows($kq);
-			if($dem>0)
-			{
-			?>
-				
-		<h2><?php echo $row["tendm"];?></h2> 
 
-		<?php } ?>
-    	<div class="sanphamcon">
-			<?php while($rows=mysql_fetch_array($kq))
-			{ ?>
-			<div class="dienthoai">
-									<?php 
-										if($rows['khuyenmai1']>0)
-										{
-									?>
-									<div class="moi"><h3>-<?php echo $rows['khuyenmai1']?>%</h3></div>
-									<?php } ?>
-									<a href="#"><img  src="img/uploads/<?php echo $rows['hinhanh'];?>"></a><br>					
-									<p><a href="#" ><?php echo $rows['tensp'];?></a></p><br>
-									<h4><?php echo number_format(($rows['gia']*((100-$rows['khuyenmai1'])/100)),0,",",".");?></h4>
-									<div class="button">
-										<ul>
-											<li>
-												<h1><a href="index.php?content=chitietsp&idsp=<?php echo $rows['idsp'] ?>" class="chitiet"><button>Chi tiết</button></a></h1>
-											</li>
-											<li>
-												<h5><a href="index.php?content=cart&action=add&idsp=<?php echo $rows['idsp'] ?>"><button>Cho vào giỏ</button></a></h5>
-											</li>
-										</ul>
-									</div><!-- End .button-->
-			</div><!-- End .dienthoai-->
-			
-			<?php } ?>
-			
-		</div>
-		</div><!-- end san pham-->
-<?php }?>
-	</div>
 
-            
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="product-pagination text-center">
-                        <nav>
-                          <ul class="pagination">
-                            <li>
-                              <a href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
-                              </a>
-                            </li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li>
-                              <a href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                              </a>
-                            </li>
-                          </ul>
-                        </nav>                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!--End main content-->
 
     <!--footer-->
