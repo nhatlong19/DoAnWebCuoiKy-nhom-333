@@ -16,6 +16,19 @@
 
 
 
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        
+        <!-- Font -->
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="../css/owl.carousel.css">
+        <link rel="stylesheet" href="css/style2.css">
+
+
+
 
 </head>
 <?php 
@@ -29,23 +42,27 @@
 	</div><!-- End .header -->
 	<div id="content">
 		<div id="top-content">
-						<p>Chào bạn <font color="#be2edd"><b><u><?= $_SESSION['username']?></u></b></font><a href="logout.php"> | Thoát</a></p>
+						<p><font color="#be2edd"><b><u><?= $_SESSION['username']?></u></b></font><a href="logout.php"> | Thoát</a></p>
 		</div>
 		<div id="main-content">
-			<div id="left-content">
-					<div class="menu-staff">
-						<ul>
-							<li><a href="staff.php">Trang chủ</a></li>
+					
+				<div class="mainmenu-area" style="background-color:lightblue">
+                        <div class="container">
+                            <div class="row">
+                                <div class=" navbar-collapse collapse">
+                                    <ul class=" nav navbar-nav">
+									<li><a href="staff.php">Trang chủ</a></li>
 							<li><a href="?staff=hienthisp"> Sản phẩm</a></li>
 							<li><a href="?staff=hienthidt"> Doanh thu</a></li>
-							<li><a href="?staff=suand"> Cập nhật thông tin</a></li>
-						</ul>
-					</div><!-- End .center -->
-				</div>	<!-- End .menu-left -->
-			</div><!-- End .left-content -->
+							<li><a href="?staff=suand"> Cập nhật thông tin</a></li>	
+                                    </ul>
+                                </div>
+                            </div>
+						</div> <!--End .menu -->
+				</div>
+
+
 			<!---------------- Hiển trị content-admin------------------->
-			
-			
 			<div id="center-content">
                 <?php
                     include("content_staff.php");
@@ -56,4 +73,18 @@
 	
 </div><!-- End .wapper -->
 </body>
+
+<script src="https://code.jquery.com/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        
+        <script src="../js/owl.carousel.min.js"></script>
+        <script src="../js/jquery.sticky.js"></script>
+        
+        <script src="../js/main.js"></script>
+        
+        <!-- Slide -->
+        <script type="text/javascript" src="../js/bxslider.min.js"></script>
+		<script type="text/javascript" src="../js/script.slider.js"></script>
+
+
 </html>
